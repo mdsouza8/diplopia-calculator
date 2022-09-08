@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Product Page Template</title>
+    <!-- Bootstrap -->
+	
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	 <link href="css/test.css" rel="stylesheet">
+	 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#"><strong>neur</strong>plexd<strong>&nbsp;</strong><strong>&nbsp;</strong><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" stroke = "#FFFFFF" fill="#FFFFFF"viewBox="0 0 481.85 556.19"><g id="Layer_1-2"><g><path d="M383.14,290.36c0,39.78-16.81,77.99-45.96,104.67l-5.77,5.09c-27.14,24.69-46.72,42.51-50.64,83-.68,7.11,4.52,13.44,11.64,14.14,.43,.04,.86,.06,1.27,.06,6.59,0,12.22-5.01,12.86-11.7,2.95-30.54,16.11-42.51,42.6-66.62l5.34-4.7c34.68-31.74,54.57-76.91,54.57-123.94,0-7.17-5.79-12.95-12.95-12.95s-12.95,5.78-12.95,12.95h0Z"/><path d="M193.91,512.98c-6.66-2.62-14.18,.64-16.79,7.3-2.63,6.64,.63,14.17,7.29,16.79l46.19,18.22c1.55,.62,3.16,.9,4.75,.9,5.17,0,10.05-3.11,12.07-8.2,2.62-6.66-.66-14.18-7.3-16.8l-46.2-18.22Z"/><path d="M240.93,108.17c-12.03-16.22-31.24-26.79-52.91-26.79-32.26,0-59.12,23.33-64.73,54-30.66,5.59-54.01,32.45-54.01,64.71s21.82,57.86,51.84,64.3c2.5,4.76,5.53,9.09,9,13.02h-44.66c-7.15,0-12.95,5.78-12.95,12.95,0,47.09,19.99,92.39,55.45,124.81,1.12,.9,2.67,2.25,4.7,4.05,26.2,23.93,39.36,35.94,42.28,66.39,.47,4.84,3.62,9.03,8.15,10.79l103.25,40.65c1.56,.63,3.16,.91,4.74,.91,5.17,0,10.05-3.11,12.05-8.21,2.62-6.66-.64-14.18-7.31-16.79l-96.13-37.85c-5.59-34.86-24.38-52.01-50.34-75.71-1.9-1.67-3.8-3.32-4.55-3.88-26.28-24.05-42.56-57.11-45.81-92.23h245.88c7.15,0,12.95-5.79,12.95-12.95,0-5.15-3.04-9.5-7.38-11.59,4-4.25,7.48-9.04,10.28-14.38,30.02-6.44,51.84-32.86,51.84-64.3s-23.34-59.12-54.01-64.71c-5.6-30.67-32.46-54-64.73-54-21.68,.02-40.89,10.59-52.89,26.81h0ZM95.18,200.1c0-18.1,12.09-33.41,28.63-38.31,3.1,13.66,10.53,26.09,21.38,35.4,5.45,4.64,13.62,4.01,18.27-1.41,4.65-5.43,4.01-13.62-1.41-18.27-8.87-7.61-13.97-18.64-13.97-30.3,0-22.02,17.91-39.94,39.94-39.94s39.93,17.92,39.93,39.94v61.93c-1.52-1.41-2.84-2.76-3.72-3.88-5.2-6.5-13.58-25.06-17.67-35.23-2.67-6.62-10.2-9.85-16.84-7.19-6.64,2.67-9.87,10.2-7.2,16.84,.75,1.86,5.17,12.76,10.6,23.56-5.64,1.91-11.43,5.02-17.43,10.35-5.35,4.75-5.83,12.93-1.09,18.28,2.56,2.89,6.12,4.35,9.7,4.35,3.05,0,6.12-1.08,8.59-3.27,5.35-4.75,9.61-6.12,15.77-6.5,4.87,4.79,10.97,9.71,15.88,13.39-7.07,17.93-24.41,33.77-45.37,33.77-12.86,0-24.53-6.02-31.93-15.96,.57-1.45,.87-3.03,.87-4.65,0-7.15-5.8-12.95-12.95-12.95-1.36,0-2.7-.09-4.01-.2-20.5-2.02-35.95-19.1-35.95-39.73h0Zm145.75,63.78c3.15,4.86,6.86,9.38,10.98,13.53h-22.01c4.14-4.14,7.86-8.68,11.02-13.53h0Zm92.84-116.67c0,11.65-5.09,22.69-13.98,30.3-5.43,4.65-6.05,12.84-1.41,18.27,4.65,5.42,12.82,6.04,18.26,1.41,10.87-9.3,18.28-21.74,21.4-35.4,16.53,4.89,28.62,20.2,28.62,38.31,0,20.63-15.45,37.7-35.94,39.73-1.32,.12-2.66,.2-4,.2-7.15,0-12.95,5.8-12.95,12.95,0,1.62,.3,3.2,.86,4.65-7.39,9.94-19.07,15.96-31.93,15.96-20.97,0-38.32-15.84-45.38-33.77,4.91-3.68,11.02-8.59,15.89-13.39,6.17,.39,10.42,1.75,15.77,6.5,2.47,2.18,5.54,3.27,8.59,3.27,3.58,0,7.12-1.48,9.7-4.35,4.74-5.35,4.24-13.54-1.11-18.3-5.99-5.31-11.79-8.43-17.43-10.34,5.43-10.8,9.86-21.69,10.6-23.56,2.66-6.63-.55-14.18-7.2-16.84-6.62-2.67-14.18,.57-16.84,7.2-4.06,10.14-12.46,28.69-17.67,35.22-.89,1.12-2.22,2.46-3.73,3.88v-61.93c0-22.02,17.92-39.94,39.93-39.94,22.03,0,39.95,17.92,39.95,39.94h0Z"/><path d="M240.09,0c-7.16,0-12.98,5.78-12.98,12.95v24.47c0,7.15,5.82,12.95,12.98,12.95s12.95-5.8,12.95-12.95V12.95c0-7.17-5.8-12.95-12.95-12.95Z"/><path d="M327.54,68.19c4.95,0,9.69-2.86,11.83-7.68l9.95-22.37c2.9-6.54-.04-14.19-6.57-17.09-6.53-2.92-14.2,.04-17.09,6.56l-9.94,22.38c-2.91,6.53,.04,14.17,6.57,17.09,1.69,.76,3.48,1.11,5.25,1.11h0Z"/><path d="M408.94,116.66l18.16-16.41c5.3-4.79,5.72-12.98,.93-18.28-4.79-5.3-12.99-5.73-18.3-.93l-18.17,16.41c-5.3,4.79-5.72,12.99-.92,18.3,2.56,2.84,6.08,4.28,9.62,4.28,3.09,0,6.2-1.11,8.68-3.36h0Z"/><path d="M445.65,196.87c1.32,0,2.68-.2,4.01-.64l23.27-7.61c6.79-2.22,10.49-9.53,8.28-16.33-2.22-6.8-9.54-10.5-16.33-8.28l-23.25,7.61c-6.8,2.22-10.5,9.54-8.28,16.33,1.77,5.48,6.84,8.92,12.3,8.92h0Z"/><path d="M40.19,176.89l-23.34-7.37c-6.81-2.13-14.09,1.65-16.24,8.47-2.17,6.8,1.62,14.07,8.44,16.24l23.34,7.36c1.3,.42,2.61,.62,3.91,.62,5.51,0,10.6-3.54,12.34-9.07,2.16-6.82-1.64-14.08-8.45-16.25h0Z"/><path d="M71.09,120.93c2.46,2.18,5.52,3.24,8.57,3.24,3.58,0,7.14-1.46,9.7-4.38,4.74-5.36,4.24-13.53-1.12-18.27l-18.34-16.23c-5.36-4.74-13.54-4.24-18.28,1.13-4.74,5.36-4.23,13.54,1.13,18.28l18.34,16.22Z"/><path d="M151.01,70.48c1.8,0,3.63-.38,5.37-1.16,6.52-2.98,9.36-10.67,6.39-17.18l-10.18-22.26c-2.98-6.49-10.66-9.37-17.18-6.38-6.5,2.96-9.36,10.66-6.38,17.16l10.18,22.26c2.18,4.76,6.88,7.56,11.79,7.56h0Z"/></g></g></svg></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> </li>
+          <li class="nav-item"> </li>
+        </ul>
+</div>
+  </nav>
+  <div class="container localizationTextBox"> 
+    <h2 class="text-center">&nbsp; Potential Localizations</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-12 offset-lg-0 col-lg-6">
+			<h4 class="text-left">Localization</h4>
+<p id="a-local"> </p>
+        </div>
+      <div class="col-md-6 col-12 offset-lg-0 col-lg-6">
+          <h4 class="text-left ddx">Differential Diagnosis</h4>
+		  <p id="a-ddx">
+		  <ul class="nav nav-tabs" role="tablist">
+			  <li class="nav-item"> <a class="nav-link active ddx" href="#area1" id="areatab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Think about...</a> </li>
+			  <li class="nav-item"> <a class="nav-link ddx" href="#area2" role="tab" id="areatab2" data-toggle="tab" aria-controls="hats">but also consider...</a> </li>
+
+		  </ul>    
+		  <div id="area1content" class="tab-content">
+			  <div role="tabpanel" class="tab-pane fade show active" id="area1" aria-labelledby="areatab1"><strong></strong>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="area2" aria-labelledby="areatab2">
+			  </div>
+		  </div></p>
+        </div>
+    </div>
+    </div>  
+  </div>
+<div class="container localizationTextBox"> 
+  <div class="container-fluid">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Diplopia</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Anisocoria</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#paneThree1" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Other Exam Findings</a> </li>		
+      <!-- Dropdown -->
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">History</a>
+        <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown Link 1</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown Link 2</a> </div>
+      </li>
+    </ul>
+    <!-- Content Panel -->
+    <div id="diplopiacontent" class="tab-content">
+      <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+       <div class="accordion__item">
+        <div class="accordion__header">In what orientaton are the double images?</div>
+        <div class="accordion__body">
+          <p>
+	      <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="horizontal"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 127 51">
+					  <g id="Layer_1-2">
+							<circle cx="25.5" cy="25.5" r="25.5" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+							<circle cx="101.5" cy="25.5" r="25.5" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+					  </g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Horizontal</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="vertical" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="Layer_3" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 51 127">
+					  <g id="Layer_1-2">
+							<circle cx="25.5" cy="101.5" r="25.5" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+							<circle cx="25.5" cy="25.5" r="25.5" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+					  </g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Vertical</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id ="diagonal"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 104.74 104.74">
+					  <g id="Layer_1-2">
+							<circle cx="25.5" cy="79.24" r="25.5" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+							<circle cx="79.24" cy="25.5" r="25.5" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+					  </g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Diagonal</span>
+			</span>
+		</label>
+	</div>
+
+</fieldset>
+		    </p>
+        
+          <p></p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <div class="accordion__header">Gaze in what direction worsens diplopia?</div>
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="rightLG" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="rightArrowSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="rSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						  <circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+					  <circle cx="19.5" cy="27.03" r="12.67" fill="currentColor"/>
+					  <circle cx="95.37" cy="27.03" r="12.67" fill="currentColor"/>
+						</g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Right LG</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="leftLG"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="leftArrowSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="lSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+							<circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+						<circle cx="33.5" cy="27.03" r="12.67" fill="currentColor"/>
+						<circle cx="109.37" cy="27.03" r="12.67" fill="currentColor"/>
+						</g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Left LG</span>
+			</span>
+		</label>
+	</div>
+
+
+</fieldset>
+			</p>
+        </div>
+      </div>
+      <div class="accordion__item">        <div class="accordion__header">Skew (hypertropia)?</div>
+
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="righthyper"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="rightHyperSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="rHSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+							<circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+						<circle cx="26.5" cy="21.85" r="12.67" fill="currentColor"/>
+						<circle cx="102.5" cy="27.03" r="12.67" fill="currentColor"/>
+						
+				  </g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Right</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="lefthyper" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="leftHyperSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="lHSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+							<circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+				  <circle cx="102.5" cy="21.85" r="12.67" fill="currentColor"/>
+				  <circle cx="26.5" cy="26.5" r="12.67" fill="currentColor"/>
+						</g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Left</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="nohyper" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="noHyperSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="lHSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+							<circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+				  <circle cx="102.5" cy="21.85" r="12.67" fill="currentColor"/>
+				  <circle cx="26.5" cy="26.5" r="12.67" fill="currentColor"/>
+						</g>
+					</svg>
+				</span>
+				<span class="checkbox-label">None</span>
+			</span>
+		</label>
+	</div>
+</fieldset>
+			</p>
+        </div>
+      </div>
+      <div class="accordion__item">        
+		  <div class="accordion__header">Head tilt in what direction worsens skew?</div>
+
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="righttilt"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="rightTiltSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 127.35 68.81">
+						<g id="Layer_2-2">
+						  <g id="Layer_1-2">
+								<circle cx="26.51" cy="42.31" r="25.5" stroke = "currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+				  <circle cx="100.84" cy="26.51" r="25.5" stroke = "currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/></g><circle cx="100.84" cy="26.51" r="12.67" fill = "currentColor" /><circle cx="26.51" cy="42.31" r="12.67" fill="currentColor"/></g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Right</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="lefttilt" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="leftHyperSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 127.35 68.81">
+						<g id="Layer_2-2"><g id="Layer_1-2"><circle cx="26.51" cy="26.51" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/><circle cx="100.84" cy="42.31" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/></g><circle cx="100.84" cy="42.31" r="12.67" fill="currentColor"/><circle cx="26.51" cy="26.51" r="12.67" fill="currentColor"/></g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Left</span>
+			</span>
+		</label>
+	</div>
+
+</fieldset>
+			</p>
+        </div>
+      </div>
+ <div class="accordion__item">        
+		  <div class="accordion__header">Convergence intact?</div>
+
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="convergence_intact"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Yes</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="convergence_impaired"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">No</span>
+			</span>
+		</label>
+	</div>		  
+
+</fieldset>
+			</p>
+        </div>
+      </div>
+
+</div>
+
+      <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+		 <div class="accordion__item">
+        <div class="accordion__header">Which pupil is larger?</div>
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="rightlarger" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="rightArrowSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke = "currentColor" viewBox="0 0 184.8 100.8">
+						<g id="Layer_1-2"><g><path d="M100.8,50.4C100.8,22.4,78.4,0,50.4,0S0,22.4,0,50.4s22.4,50.4,50.4,50.4,50.4-22.4,50.4-50.4Zm-89.6,0C11.19,28.56,28.55,11.2,50.39,11.2s39.2,17.36,39.2,39.2-17.36,39.2-39.2,39.2S11.19,72.24,11.19,50.4Z"/><path d="M184.8,50.4c0-18.48-15.12-33.6-33.6-33.6s-33.6,15.12-33.6,33.6,15.12,33.6,33.6,33.6,33.6-15.12,33.6-33.6Zm-56,0c0-12.32,10.08-22.4,22.4-22.4s22.4,10.08,22.4,22.4-10.08,22.4-22.4,22.4-22.4-10.08-22.4-22.4Z"/><path d="M61.6,50.4c0,6.19-5.02,11.2-11.2,11.2s-11.2-5.01-11.2-11.2,5.02-11.2,11.2-11.2,11.2,5.01,11.2,11.2"/><path d="M162.4,50.4c0,6.19-5.02,11.2-11.2,11.2s-11.2-5.01-11.2-11.2,5.02-11.2,11.2-11.2,11.2,5.01,11.2,11.2"/></g></g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Right</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="leftlarger"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="leftArrowSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 184.8 100.8">
+						<g id="Layer_1-2"><g><path d="M134.4,100.8c28,0,50.4-22.4,50.4-50.4,0-28-22.4-50.4-50.4-50.4-28,0-50.4,22.4-50.4,50.4,0,28,22.4,50.4,50.4,50.4Zm0-11.2c-21.84,0-39.2-17.36-39.2-39.2S112.56,11.2,134.4,11.2s39.2,17.36,39.2,39.2-17.36,39.2-39.2,39.2Z"/><path d="M33.6,84c18.48,0,33.6-15.12,33.6-33.6S52.08,16.8,33.6,16.8,0,31.92,0,50.4s15.12,33.6,33.6,33.6Zm0-11.2c-12.32,0-22.4-10.08-22.4-22.4s10.08-22.4,22.4-22.4,22.4,10.08,22.4,22.4-10.08,22.4-22.4,22.4Z"/><path d="M123.2,50.4c0-6.19,5.02-11.2,11.2-11.2s11.2,5.01,11.2,11.2c0,6.19-5.02,11.2-11.2,11.2s-11.2-5.01-11.2-11.2"/><path d="M22.4,50.4c0-6.19,5.02-11.2,11.2-11.2s11.2,5.01,11.2,11.2-5.02,11.2-11.2,11.2-11.2-5.01-11.2-11.2"/></g></g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Left</span>
+			</span>
+		</label>
+	</div>
+
+
+</fieldset>
+			</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <div class="accordion__header">Is the anisocoria worse in the light or dark?</div>
+        <div class="accordion__body">
+          <p> 
+	      <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="light"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" stroke = "currentColor" viewBox="0 0 424.73 424.99">
+					  <path d="M214.26,113.45c-53.26,0-96.42,43.56-96.42,97.26s43.16,97.25,96.42,97.25,96.38-43.53,96.38-97.25-43.18-97.26-96.38-97.26h0Zm0,152.93c-30.46,0-55.16-24.95-55.16-55.67s24.7-55.62,55.16-55.62,55.1,24.9,55.1,55.62-24.69,55.67-55.1,55.67Z"/><path d="M198.18,0h32.14V79.57h-32.14V0Z"/><path d="M373.58,72.4l-22.72-22.92-55.76,56.28,22.72,22.91,55.76-56.27Z"/><path d="M345.83,194.91h78.9v32.39h-78.9v-32.39h0Z"/><path d="M352.38,373.36l22.72-22.92-55.77-56.26-22.71,22.9,55.76,56.28Z"/><path d="M198.84,345.42h32.14v79.57h-32.14v-79.58h0Z"/><path d="M52.63,352.57l22.72,22.94,55.78-56.29-22.69-22.93-55.81,56.28Z"/><path d="M0,197.04H78.88v32.43H0v-32.43H0Z"/><path d="M71.76,49.55l-22.68,22.91,55.76,56.26,22.7-22.92-55.78-56.25Z"/></g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Light</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="dark" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+					<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 332.49 373.04">
+					  <g id="Layer_1-2"><path d="M326.67,303.04c-103.11,0-186.67-83.57-186.67-186.67,0-44.04,15.34-84.44,40.86-116.37C80.46,3.1,0,85.23,0,186.37s83.56,186.67,186.67,186.67c59.06,0,111.61-27.49,145.82-70.29-1.95,.07-3.86,.29-5.82,.29h0Z"/></g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Dark</span>
+			</span>
+		</label>
+	</div>
+	
+
+</fieldset>
+		    </p>
+        
+          <p></p>
+        </div>
+      </div>
+
+      <div class="accordion__item">        <div class="accordion__header">Skew (hypertropia)?</div>
+
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="righthyper"/>
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="rightHyperSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="rHSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+							<circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+						<circle cx="26.5" cy="21.85" r="12.67" fill="currentColor"/>
+						<circle cx="102.5" cy="27.03" r="12.67" fill="currentColor"/>
+						
+				  </g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Right</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input" id="lefthyper" />
+			<span class="checkbox-tile">
+				<span class="checkbox-icon">
+				<svg id="leftHyperSVG" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 129 53">
+						<g id="lHSVG_G">
+							<circle cx="26.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+							<circle cx="102.5" cy="26.5" r="25.5" stroke="currentColor" style="fill:none; stroke-miterlimit:10; stroke-width:2px;"/>
+						</g>
+				  <circle cx="102.5" cy="21.85" r="12.67" fill="currentColor"/>
+				  <circle c[tx="26.5" cy="26.5" r="12.67" fill="currentColor"/>
+						</g>
+					</svg>
+				</span>
+				<span class="checkbox-label">Left</span>
+			</span>
+		</label>
+	</div>
+
+</fieldset>
+			</p>
+        </div>
+      </div>
+<!--
+ <div class="accordion__item">        
+		  <div class="accordion__header">Other neurologic findings?</div>
+
+        <div class="accordion__body">
+          <p>
+		  <fieldset class="checkbox-group">
+	<legend class="checkbox-group-legend">Choose your favorites</legend>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="ptosis"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Ptosis</span>
+			</span>
+		</label>
+	</div>
+
+</fieldset>
+			</p>
+        </div>
+      </div>
+-->
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="paneThree1" aria-labelledby="hatstab2">
+<fieldset class="checkbox-group">
+<!--	<legend class="checkbox-group-legend">Choose your favorites</legend>-->
+
+
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="eye_pain"/>
+			<span class="checkbox-tile symptoms">
+				
+				<span class="checkbox-label">Eye Pain</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="headache"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-icon">
+				
+				</span>				
+				<span class="checkbox-label">Headache</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="ptosis"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Ptosis</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="impaired_adduction"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Impaired Adduction</span>
+			</span>
+		</label>
+	</div>		
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="nystagmus"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Nystagmus</span>
+			</span>
+		</label>
+	</div>	
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="ipsilateral_ataxia"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Ipsilateral Ataxia</span>
+			</span>
+		</label>
+	</div>	
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="contralateral_ataxia"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Contralateral Ataxia</span>
+			</span>
+		</label>
+	</div>
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="facial_numbness"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Facial Numbness</span>
+			</span>
+		</label>
+	</div>	
+	<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="contralateral_hemiparesis"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Contralateral Hemibody Weakness</span>
+			</span>
+		</label>
+	</div>			  
+
+<div class="checkbox">
+		<label class="checkbox-wrapper">
+			<input type="checkbox" class="checkbox-input symptoms" id="ipsilateral_hemiface_weakness"/>
+			<span class="checkbox-tile symptoms">
+				<span class="checkbox-label">Ipsilateral Hemiface Weakness</span>
+			</span>
+		</label>
+	</div>			  
+
+			  
+</fieldset>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+        <p>Dropdown content#1</p>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+        <p>Dropdown content#2</p>
+      </div>
+    </div>
+  </div>
+</div>
+	  
+<div class="container mt-2">
+<!--
+  <hr>
+   
+  <hr>
+-->
+<!--
+    <section>
+      <h2 class="text-center">Video Tutorial</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lFqDM_YlXV8"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+<!--
+<hr>
+<hr>
+-->
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src="js/set.js"></script>
+  <script  src="js/script.js"></script>
+	  
+</body>
+</html>
